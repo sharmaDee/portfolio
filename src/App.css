@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme{
+  --font-poppins: "Poppins", sans-serif;
+  --color-Eerieblack: #1A1919;
+  --color-Primary: #2BF493;
+   --color-Webblack: #121212;
+   --color-Davy: #555555;
+  --animate-spin: spin 8s linear infinite ;
+  --shadow-card: 0 0 30px 12px #474747;
+  --spacing-unset: unset;
+  --spacing-23px: 23px;
+  --spacing-30px: 30px;
+  --spacing-1440: 1440px;
+  --spacing-400px: 400px;
+  --spacing-500px: 500px;
+  --spacing-560px: 560px;
+  --spacing-660px: 660px;
+  --spacing-480px: 480px;
+  --spacing-730px: 730px;
+  --spacing-60%: 60%;
+  --spacing-40%: 40%;
+  --text-80px: 80px;
+  --text-200px: 200px;
+  --text-190: 190px;
+  --spacing-440px: 440px;
+  --radius-54px: 54px;
+  --font-Teko: "Teko", sans-serif;
+  --font-Kanit: "Kanit", sans-serif;
+  
+}
+@layer utilities{
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .zindex-999{
+    z-index: 999;
+  }
+  .shadow-side{
+    box-shadow: -7px 1px 20px 0px rgb(255 255 255 / 7%);
+  }
+  .swiper-button-prev, .swiper-button-next{
+    @apply !w-10 !h-10 rounded-full bg-Primary;
+  }
+  .swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 14px !important;
+    color: #000;
+    font-weight: 700
+  }
+  .writing-vertical{
+    writing-mode: vertical-lr
+  }
+  .thumb-1{
+        -webkit-mask-image: url(assets/images/radius-half-left.webp);
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+  }
+    .thumb-2{
+        -webkit-mask-image: url(assets/images/radius-half-right.webp);
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+  }
+  .overflow-unset{
+    overflow: unset !important; 
+  }
+ .webtabs.react-tabs__tab--selected::before{
+    background-color: #FF6900 !important;
+ }
+ .webtabs.react-tabs__tab--selected .bg-active{
+    background-color: #FFB86A !important;
+  }
+  .testimonial-card .swiper-button-next, .testimonial-card .swiper-button-prev{
+    top: unset !important;
+    bottom: -70px !important;
+  }
+  .testimonial-card .swiper-button-prev{
+    left: unset !important;
+    right: 64px !important;
+  }
+
+}
+
+@layer{
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+}
+
