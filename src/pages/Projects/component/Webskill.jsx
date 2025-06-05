@@ -16,13 +16,13 @@ import Costeffectivealt from "../../../assets/images/costeffectivealt.jpg";
 export const Webskill = () => {
   return (
     <>
-      <div className="py-28 relative">
-        <div className="max-w-1440 mx-auto space-y-16">
-          <div className="flex items-start justify-between">
-            <h2 className="text-80px font-bold text-Webblack font-Teko max-w-730px leading-20 uppercase">
+      <div className="py-20 pb-10 lg:py-28 relative px-5">
+        <div className="xl:max-w-1220px 2xl:max-w-1440 mx-auto space-y-16">
+          <div className="flex flex-col lg:flex-row items-start justify-between gap-4 lg:gap-10">
+            <h2 className="text-4xl lg:text-5xl xl:text-80px font-bold text-Webblack font-Teko max-w-730px xl:leading-20 uppercase">
               Empowering skills to help you!
             </h2>
-            <p className="text-Davy font-normal max-w-80 font-Kanit text-lg">
+            <p className="text-Davy font-normal lg:max-w-80 font-Kanit text-base xl:text-lg">
               Add the best talent on the market, an agile skilled management &
               seamless involvement
             </p>
@@ -31,9 +31,9 @@ export const Webskill = () => {
           {/*  */}
 
           <div className="flex items-start justify-between gap-28">
-            <Tabs className="flex items-start justify-between gap-28 w-full">
-             <div className="border-l space-y-16 shrink-0 relative overflow-unset max-w-440px border-black/10 !pl-5 pb-6">
-                <TabList className="space-y-14 relative">
+            <Tabs className="flex flex-col lg:flex-row items-start justify-between gap-18 xl:gap-28 w-full">
+             <div className="border-l space-y-16 shrink-0 relative overflow-unset lg:max-w-440px border-black/10 !pl-5 pb-0">
+                <TabList className="space-y-14 relative ">
                    
                   <Tab className="webtabs p-0 cursor-pointer relative focus:outline-0 before:content-[''] before:absolute before:top-0 before:-left-23px before:w-1 before:rounded-2xl before:h-full before:bg-transparent">
                       <div className="flex items-start gap-7  relative">
@@ -41,7 +41,7 @@ export const Webskill = () => {
                           <img src={Creativity} alt="creativity" />
                         </div>
                         <div className="flex flex-col gap-2">
-                          <h3 className="text-4xl font-Teko font-bold uppercase">
+                          <h3 className="text-3xl lg:text-4xl font-Teko font-bold uppercase">
                             Creativity
                           </h3>
                           <p className="text-lg font-normal text-Davy font-Kanit">
@@ -58,7 +58,7 @@ export const Webskill = () => {
                           <img src={Relationships} alt="creativity" />
                         </div>
                         <div className="flex flex-col gap-2">
-                          <h3 className="text-4xl font-Teko font-bold uppercase">
+                          <h3 className="text-3xl lg:text-4xl font-Teko font-bold uppercase">
                             Relationships
                           </h3>
                           <p className="text-lg font-normal text-Davy font-Kanit">
@@ -75,7 +75,7 @@ export const Webskill = () => {
                           <img src={Responsibility} alt="creativity" />
                         </div>
                         <div className="flex flex-col gap-2">
-                          <h3 className="text-4xl font-Teko font-bold uppercase">
+                          <h3 className="text-3xl lg:text-4xl font-Teko font-bold uppercase">
                             Responsibility
                           </h3>
                           <p className="text-lg font-normal text-Davy font-Kanit">
@@ -91,7 +91,7 @@ export const Webskill = () => {
                           <img src={Costeffective} alt="creativity" />
                         </div>
                         <div className="flex flex-col gap-2">
-                          <h3 className="text-4xl font-Teko font-bold uppercase">
+                          <h3 className="text-3xl lg:text-4xl font-Teko font-bold uppercase">
                             Cost effective
                           </h3>
                           <p className="text-lg font-normal text-Davy font-Kanit">
@@ -108,9 +108,9 @@ export const Webskill = () => {
                   <TabPanel>
                     <div className="relative pl-14 pt-20">
                       <div className="absolute top-0 left-0 z-10">
-                        <img src={Weekly} alt="Weekly" className="w-80" />
+                        <img src={Weekly} alt="Weekly" className="w-80 lg:w-52 xl:w-80" />
                       </div>
-                      <div className="relative w-660px h-480px overflow-hidden ml-auto mt-auto">
+                      <div className="relative w-full h-480px lg:w-350px lg:h-280px xl:w-600px xl:h-400px 2xl:w-660px 2xl:h-480px overflow-hidden ml-auto mt-auto">
                         <img
                           src={Creativityalt}
                           alt="Creativityalt"
@@ -122,9 +122,9 @@ export const Webskill = () => {
                   <TabPanel>
                     <div className="relative pl-14 pt-20">
                       <div className="absolute top-0 left-0 z-10">
-                        <img src={Weekly} alt="Weekly" className="w-80" />
+                        <img src={Weekly} alt="Weekly" className="w-80 lg:w-52 xl:w-80" />
                       </div>
-                      <div className="relative w-660px h-480px overflow-hidden ml-auto mt-auto">
+                      <div className="relative w-full h-480px lg:w-350px lg:h-280px xl:w-600px xl:h-400px 2xl:w-660px 2xl:h-480px overflow-hidden ml-auto mt-auto">
                         <img
                           src={Relationshipsalt}
                           alt="relationships"
@@ -137,9 +137,9 @@ export const Webskill = () => {
                   <TabPanel>
                     <div className="relative pl-14 pt-20">
                       <div className="absolute top-0 left-0 z-10">
-                        <img src={Weekly} alt="Weekly" className="w-80" />
+                        <img src={Weekly} alt="Weekly" className="w-80 lg:w-52 xl:w-80" />
                       </div>
-                      <div className="relative w-660px h-480px overflow-hidden ml-auto mt-auto">
+                      <div className="relative w-full h-480px lg:w-350px lg:h-280px xl:w-600px xl:h-400px 2xl:w-660px 2xl:h-480px overflow-hidden ml-auto mt-auto">
                         <img
                           src={Teamwork}
                           alt="teamwork"
@@ -151,9 +151,9 @@ export const Webskill = () => {
                   <TabPanel>
                     <div className="relative pl-14 pt-20">
                       <div className="absolute top-0 left-0 z-10">
-                        <img src={Weekly} alt="Weekly" className="w-80" />
+                        <img src={Weekly} alt="Weekly" className="w-80 lg:w-52 xl:w-80" />
                       </div>
-                      <div className="relative w-660px h-480px overflow-hidden ml-auto mt-auto">
+                      <div className="relative w-full h-480px lg:w-350px lg:h-280px xl:w-600px xl:h-400px 2xl:w-660px 2xl:h-480px overflow-hidden ml-auto mt-auto">
                         <img
                           src={Costeffectivealt}
                           alt="costeffectivealt"

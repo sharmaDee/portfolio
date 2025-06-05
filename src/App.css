@@ -11,16 +11,25 @@
   --spacing-unset: unset;
   --spacing-23px: 23px;
   --spacing-30px: 30px;
+  --spacing-1220px: 1220px;
   --spacing-1440: 1440px;
+  --spacing-280px: 280px;
+  --spacing-350px: 300px;
+  --spacing-350px: 350px;
   --spacing-400px: 400px;
   --spacing-500px: 500px;
   --spacing-560px: 560px;
+  --spacing-600px: 600px;
   --spacing-660px: 660px;
   --spacing-480px: 480px;
   --spacing-730px: 730px;
   --spacing-60%: 60%;
   --spacing-40%: 40%;
+  --spacing-45%: 45%;
+  --spacing-55%: 55%;
   --text-80px: 80px;
+  --text-100px: 100px;
+  --text-120px: 120px;
   --text-200px: 200px;
   --text-190: 190px;
   --spacing-440px: 440px;
@@ -80,13 +89,6 @@
     left: unset !important;
     right: 64px !important;
   }
-
-}
-
-@layer{
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 
 }
 

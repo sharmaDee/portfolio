@@ -11,11 +11,11 @@ export const Webfaq = () => {
   ];
   return (
    <>
-   <div className='py-28 px-5'>
-    <div className='max-w-1440 mx-auto'>
-        <div className='grid-cols-2 grid gap-10'>
+   <div className='py-20 xl:py-28 px-5'>
+    <div className='xl:max-w-1220px 2xl:max-w-1440 mx-auto'>
+        <div className='grid-cols-1 md:grid-cols-2 grid gap-10'>
             <div className='relative space-y-4 '>
-                <h2 className='text-80px font-Teko font-bold text-Webblack leading-20 uppercase'>frequently <br/>asked <br/>questions</h2>
+                <h2 className='text-4xl lg:text-5xl xl:text-80px font-Teko font-bold text-Webblack xl:leading-20 uppercase'>frequently <br/>asked <br/>questions</h2>
                 <p className='text-Davy max-w-80 font-normal font-Kanit text-base'>Frequently asked question (FAQ) pages to find answars.</p>
             </div>
             <div className="app">

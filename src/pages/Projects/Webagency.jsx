@@ -13,8 +13,14 @@ import { Webfaq } from './component/Webfaq'
 import { Webcontactarea } from './component/Webcontactarea'
 import { Webjournal } from './component/Webjournal'
 import { Webfooter } from './component/Webfooter'
+import { useEffect } from 'react';
 
 export const Webagency = () => {
+  useEffect(() => {
+    // Instantly move to top without animation
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, []);
+
   return (
     <>
         <Webheader/>

@@ -16,8 +16,6 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-
-
 // import required modules
 import { FreeMode, Autoplay  } from 'swiper/modules';
 import 'swiper/css/free-mode';
@@ -26,7 +24,7 @@ import 'swiper/css';
 export const Webtechnology = () => {
   return (
    <>
-   <div className='pt-28 relative space-y-5'>
+   <div className='pt-12 lg:pt-20 xl:pt-28 relative space-y-5'>
      <Swiper
         slidesPerView={2}
         grabCursor={true}
@@ -51,7 +49,7 @@ export const Webtechnology = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slideone} alt='Slideone' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>
@@ -65,7 +63,7 @@ export const Webtechnology = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slidetwo} alt='Slidetwo' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>
@@ -79,7 +77,7 @@ export const Webtechnology = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slidethree} alt='Slidetwo' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>
@@ -93,7 +91,7 @@ export const Webtechnology = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slidefour} alt='Slidethree' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>
@@ -135,7 +133,7 @@ export const Webtechnology = () => {
         className="mySwiperone"
       >
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slidefive} alt='Slidefive' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>
@@ -149,7 +147,7 @@ export const Webtechnology = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slidesix} alt='Slidefive' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>
@@ -163,7 +161,7 @@ export const Webtechnology = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slideseven} alt='Slideseven' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>
@@ -177,7 +175,7 @@ export const Webtechnology = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='relative  h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
+          <div className='relative  xl:500px 2xl:h-560px group/hs overflow-hidden transition-all cursor-pointer  duration-500'>
             <img src={Slideeight} alt='Slideeight' className='w-full h-full'/>
             <div className='absolute top-0 group-hover/hs:opacity-100 opacity-0 transition-all  duration-500 left-0 w-full h-full bg-black/60 z-10 p-16'>
               <div className='absolute left-7 bottom-7'>

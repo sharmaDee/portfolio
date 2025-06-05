@@ -1,9 +1,10 @@
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import "./App.css";
 import { Headerside } from "./component/Headerside";
 import { Sidebar } from "./component/Sidebar";
 import { Homepage } from "./pages/home/Homepage";
 import { Webagency } from "./pages/Projects/Webagency";
+
 
 function App() {
   return (

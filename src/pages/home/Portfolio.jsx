@@ -8,11 +8,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Mousewheel, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 
 
 export const Portfolio = () => {
-  
+
   return (
     <>
     <div className='py-10 xl:py-20 2xl:py-24' id="portfolio" name="section5" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="460">
@@ -28,7 +28,7 @@ export const Portfolio = () => {
                 </p>
               </div>
               <h2 className="text-3xl md:text-4xl 2xl:text-5xl leading-14 font-poppins font-thin poppins-thin text-white">
-              Featured  <span className=" text-Primary">Projects</span>
+              Featured  <span className=" text-Primary font-medium">Projects</span>
               </h2>
             </div>
             <div className='mt-8 md:mt-12 '>
@@ -49,7 +49,8 @@ export const Portfolio = () => {
                     </div>
                     
                   </div>
-                  <Link to="/Webagency" className='text-xl text-white  group-hover/hs:underline group-hover/hs:text-Primary transition-all ease-in-out duration-300'>Bureau - Architecture Studio Website</Link>
+                  
+                   <Link to="/Webagency"   className='text-xl text-white  group-hover/hs:underline group-hover/hs:text-Primary transition-all ease-in-out duration-300'>Bureau - Architecture Studio Website</Link >
                  
               </div>
               </SwiperSlide>

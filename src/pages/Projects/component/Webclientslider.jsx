@@ -16,12 +16,29 @@ import 'swiper/css';
 export const Webclientslider = () => {
   return (
     <>
-    <div className='relative bg-gray-950 gap-6 overflow-hidden flex items-center'>
-      <div className='relative shrink-0'>
+    <div className='relative bg-gray-950 gap-6 overflow-hidden flex items-center p-5 xl:p-0'>
+      <div className='relative shrink-0 hidden xl:block'>
         <img className='w-full h-full object-cover' src={Bgshape} alt="Bgshape"/>
       </div>
-      <div className='relative w-full mt-4 pl-20'>
-<Swiper direction={'horizontal'} slidesPerView={6} loop={true} autoplay={{delay: 2000, disableOnInteraction: false,}} navigation={false} spaceBetween={30} mousewheel={true} modules={[Autoplay, Mousewheel]}
+      <div className='relative w-full xl:mt-4 xl:pl-20'>
+<Swiper direction={'horizontal'} slidesPerView={6} breakpoints={{
+          340: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 30,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 30,
+          },
+          1200: {
+            slidesPerView: 6,
+            spaceBetween: 30,
+          },
+        }} loop={true} autoplay={{delay: 0, disableOnInteraction: false,}} speed={2000} navigation={false} spaceBetween={30} mousewheel={true} modules={[Autoplay, Mousewheel]}
         className="mySwiper"
       >
         <SwiperSlide>

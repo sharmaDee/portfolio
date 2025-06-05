@@ -14,15 +14,15 @@ export const Webcontent = () => {
   return (
     <>
     {/* // Hero secetion */}
-    <div className='py-28 bg-gray-100 relative overflow-hidden'>
-        <div className='max-w-1440 mx-auto'>
-            <div className='flex'>
-                <div className='w-60%'>
+    <div className='px-5 py-14 md:py-20 lg:py-28 bg-gray-100 relative overflow-hidden'>
+        <div className='xl:max-w-1220px 2xl:max-w-1440  mx-auto'>
+            <div className='flex flex-col md:flex-row gap-y-14'>
+                <div className='w-full md:w-60% lg:w-1/2 2xl:w-60%'>
                 <div className='relative font-Teko'>
-                    <h1 className='text-190 leading-40 font-bold uppercase'>We are Skilled in <span className='text-4xl pb-5 font-medium  before:content-[""] before:absolute before:bottom-1.5 after:content-[""] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-orange-500 before:w-full before:h-0.5 before:bg-orange-500 mr-10 -translate-y-7 leading-8 relative  inline-block'>Web <br/>Design</span> 
- and <span className='text-3xl font-normal rotate-180 pt-7 inline-flex bg-amber-500 w-32 h-32 writing-vertical rounded-54px lowercase items-center'>Development</span><span className='shape-1 relative z-10 -top-6 -ml-3.5'><img src={Avtar} className='inline-flex' alt="Avtar"/></span></h1>
+                    <h1 className='text-6xl md:text-7xl lg:text-100px xl:text-120px 2xl:text-190 leading-14 md:leading-16 lg:leading-24 2xl:leading-40 font-bold uppercase'>We are Skilled in <br/><span className='text-xl md:text-4xl pb-5 font-medium  before:content-[""] before:absolute before:bottom-3.5 after:content-[""] after:absolute after:bottom-2 after:left-0 after:w-full after:h-0.5 after:bg-orange-500 before:w-full before:h-0.5 before:bg-orange-500 mr-4 md:mr-10 -translate-y-5 md:-translate-y-7 leading-4 md:leading-8 relative  inline-block'>Web <br/>Design</span> 
+ and <span className='text-base md:text-2xl 2xl:text-3xl font-normal rotate-180 pt-2 md:pt-7 inline-flex bg-amber-500 w-14 h-14 md:w-24 md:h-24 2xl:w-32 2xl:h-32 writing-vertical rounded-2xl md:rounded-4xl 2xl:rounded-54px lowercase items-center'>Development</span><span className='shape-1 relative z-10 -top-3.5 md:-top-6 -ml-3.5'><img src={Avtar} className='inline-flex w-14 h-14 md:w-24 md:h-24 2xl:w-30 2xl:h-30'  alt="Avtar"/></span></h1>
                 </div>
-                <div className='flex items-start gap-9 max-w-500px ml-32 mt-20'>
+                <div className='flex items-start gap-5 lg:gap-9 xl:max-w-500px xl:ml-32 mt-10 xl:mt-20'>
                   <div className='flex items-center justify-center w-12 h-24 shrink-0 border border-Eerieblack rounded-4xl'>
                     <FontAwesomeIcon icon={faArrowDown} />
                   </div>
@@ -32,7 +32,7 @@ export const Webcontent = () => {
                   </div>
                 </div>
                 </div>
-                <div className='w-40%'>
+                <div className='w-full md:w-40% lg:w-1/2 2xl:w-40% pl-10'>
                   <div className='thumb-wrapper relative'>
                     <div className='shape-1 absolute top-0 left-0'>
                       <img src={Shapeone} alt="Shapeone"/>
@@ -48,7 +48,7 @@ export const Webcontent = () => {
                     </div>
                   </div>
                 </div>
-                <div className='absolute px-10 pt-16 max-w-2xs h-full right-0 top-0 border-l border-gray-300'>
+                <div className='hidden xl:block absolute px-5 2xl:px-10 pt-16 max-w-2xs h-full right-0 top-0 border-l border-gray-300'>
                   <p className='uppercase font-semibold text-base leading-8'>BUILDING <br/> OUTSTANDING <br/> DESIGN & <br/> DEVELOPMENT</p>
                 </div>
                 <div className='w-400px absolute -bottom-36 -left-48 h-400px border-[6rem] shrink-0 border-gray-400/20 rounded-full'></div>

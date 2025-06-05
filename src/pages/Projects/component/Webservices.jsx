@@ -10,23 +10,23 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons'
 export const Webservices = () => {
   return (
     <>
-    <div className='py-32'>
-        <div className='max-w-1440 mx-auto space-y-16'>
-            <div className='relative max-w-730px mx-auto space-y-6 '>
-                <div className='absolute left-1/2 -top-16 -translate-x-1/2'>
+    <div className='py-16 md:py-20 2xl:py-32 px-5'>
+        <div className='xl:max-w-1220px 2xl:max-w-1440 mx-auto space-y-10 xl:space-y-16'>
+            <div className='relative max-w-730px mx-auto space-y-4 xl:space-y-6 '>
+                <div className='hidden xl:block absolute left-1/2 -top-16 -translate-x-1/2'>
                                 <img src={Emoje} alt='Emoje'/>
                               </div>
-                <h2 className='text-80px font-Teko leading-20 font-bold text-Webblack uppercase'>we <span className='text-Davy'>provide</span> premium Yoks service</h2>
-                <p className='text-Webblack text-lg max-w-80 ml-auto font-normal font-Kanit'>Our ability to combine expertise and systems thinking is what fuels us as a team.</p>
+                <h2 className='text-4xl lg:text-5xl xl:text-80px font-Teko xl:leading-20 font-bold text-Webblack uppercase'>we <span className='text-Davy'>provide</span> premium Yoks service</h2>
+                <p className='text-Webblack text-lg xl:max-w-80 ml-auto font-normal font-Kanit'>Our ability to combine expertise and systems thinking is what fuels us as a team.</p>
             </div>
             <div className='flex flex-col'>
-<div className='grid grid-cols-4 gap-5 border-y py-11 border-black/10'>
+<div className='grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 border-y py-11 border-black/10'>
                 <div className='relative'>
                     <h4 className='font-Teko font-semibold text-Webblack text-4xl'>01.</h4>
                 </div>
-                <div className='col-span-2 grid grid-cols-2 gap-28'>
+                <div className='xl:col-span-2 grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-28'>
                     <div className='relative'>
-                        <h3 className='uppercase text-4xl font-Teko text-Webblack font-bold'>Project<br/>Management</h3>
+                        <h3 className='uppercase text-3xl xl:text-4xl font-Teko text-Webblack font-bold'>Project<br/>Management</h3>
                     </div>
                     <div className='relative space-y-4'>
                         <p className='text-Davy text-lg font-semibold'>Creative Design team on demand that can design, build, ship and scale your real has development agency.</p>
@@ -46,18 +46,18 @@ export const Webservices = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-24 h-32 border border-black/10 flex items-center justify-center ml-auto rounded-full'>
-                <img src={Management} alt='management'/>
+                <div className='w-20 h-24 xl:w-24 xl:h-32 border border-black/10 flex items-center justify-center xl:ml-auto rounded-full'>
+                    <img src={Management} className='w-8 xl:w-10' alt='management'/>
                 </div>
             </div>
             {/* 02 */}
-            <div className='grid grid-cols-4 gap-5 border-b py-11 border-black/10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 border-b py-11 border-black/10'>
                 <div className='relative'>
                     <h4 className='font-Teko font-semibold text-Webblack text-4xl'>02.</h4>
                 </div>
-                <div className='col-span-2 grid grid-cols-2 gap-28'>
+                <div className='xl:col-span-2 grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-28'>
                     <div className='relative'>
-                        <h3 className='uppercase text-4xl font-Teko text-Webblack font-bold'>Product<br/>Management</h3>
+                        <h3 className='uppercase text-3xl xl:text-4xl font-Teko text-Webblack font-bold'>Product<br/>Management</h3>
                     </div>
                     <div className='relative space-y-4'>
                         <p className='text-Davy text-lg font-semibold'>Creative Design team on demand that can design, build, ship and scale your real has development agency.</p>
@@ -77,18 +77,18 @@ export const Webservices = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-24 h-32 border border-black/10 flex items-center justify-center ml-auto rounded-full'>
-                <img src={managementsecond} alt='management'/>
+                <div className='w-20 h-24 xl:w-24 xl:h-32 border border-black/10 flex items-center justify-center xl:ml-auto rounded-full'>
+                <img src={managementsecond} className='w-8 xl:w-10' alt='management'/>
                 </div>
             </div>
             {/* 03 */}
-            <div className='grid grid-cols-4 gap-5 border-b py-11 border-black/10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 border-b py-11 border-black/10'>
                 <div className='relative'>
                     <h4 className='font-Teko font-semibold text-Webblack text-4xl'>03.</h4>
                 </div>
-                <div className='col-span-2 grid grid-cols-2 gap-28'>
+                <div className='xl:col-span-2 grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-28'>
                     <div className='relative'>
-                        <h3 className='uppercase text-4xl font-Teko text-Webblack font-bold'>Web<br/>Design</h3>
+                        <h3 className='uppercase text-3xl xl:text-4xl font-Teko text-Webblack font-bold'>Web<br/>Design</h3>
                     </div>
                     <div className='relative space-y-4'>
                         <p className='text-Davy text-lg font-semibold'>Creative Design team on demand that can design, build, ship and scale your real has development agency.</p>
@@ -108,18 +108,18 @@ export const Webservices = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-24 h-32 border border-black/10 flex items-center justify-center ml-auto rounded-full'>
-                <img src={Webdesign} alt='webdesign'/>
+                <div className='w-20 h-24 xl:w-24 xl:h-32 border border-black/10 flex items-center justify-center xl:ml-auto rounded-full'>
+                <img src={Webdesign} className='w-8 xl:w-10' alt='webdesign'/>
                 </div>
             </div>
             {/* 04 */}
-            <div className='grid grid-cols-4 gap-5 border-b py-11 border-black/10'>
+            <div className='grid grid-cols-1 md:grid-cols-3 xl:grid-cols-4 gap-5 border-b py-11 border-black/10'>
                 <div className='relative'>
                     <h4 className='font-Teko font-semibold text-Webblack text-4xl'>04.</h4>
                 </div>
-                <div className='col-span-2 grid grid-cols-2 gap-28'>
+                <div className='xl:col-span-2 grid grid-cols-1 xl:grid-cols-2 gap-5 xl:gap-28'>
                     <div className='relative'>
-                        <h3 className='uppercase text-4xl font-Teko text-Webblack font-bold'>Backend<br/>Developement</h3>
+                        <h3 className='uppercase text-3xl xl:text-4xl font-Teko text-Webblack font-bold'>Backend<br/>Developement</h3>
                     </div>
                     <div className='relative space-y-4'>
                         <p className='text-Davy text-lg font-semibold'>Creative Design team on demand that can design, build, ship and scale your real has development agency.</p>
@@ -139,15 +139,15 @@ export const Webservices = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='w-24 h-32 border border-black/10 flex items-center justify-center ml-auto rounded-full'>
-                <img src={Developement} alt='developement'/>
+                <div className='w-20 h-24 xl:w-24 xl:h-32 border border-black/10 flex items-center justify-center xl:ml-auto rounded-full'>
+                <img src={Developement} className='w-8 xl:w-10' alt='developement'/>
                 </div>
             </div>
             </div>
             
         </div>
     </div>
-    <div className='relative w-full h-730px before:content-[""] before:w-full before:h-full before:bg-orange-500/55 before:top-0 before:left-0 before:mix-blend-multiply before:absolute'>
+    <div className='relative w-full xl:h-730px before:content-[""] before:w-full before:h-full before:bg-orange-500/55 before:top-0 before:left-0 before:mix-blend-multiply before:absolute'>
         <img src={Work} alt='Work' className='w-full h-full object-cover'/>
     </div>
     </>
