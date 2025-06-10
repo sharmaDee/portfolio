@@ -26,9 +26,7 @@ export const Headerside = () => {
                 <span className='w-4 h-0.5 group-hover/hs:w-6 transition-all ease-in-out duration-300 bg-white/60 group-hover/hs:bg-Primary rounded-4xl block'></span>
             </button>
         
-            <div  className={`fixed top-0  right-0 bg-gradient-to-br from-Eerieblack shadow-side to-gray-800 py-10 md:py-14 px-10 md:px-20 min-w-72 max-w-72 md:max-w-96 md:min-w-96 h-screen transition-all ease-in-out duration-300 ${
-          isOpen ? 'translate-x-0' : 'translate-x-96 md:translate-x-440px'
-        }`}>
+            <div  className={`fixed top-0  right-0 bg-gradient-to-br from-Eerieblack shadow-side to-gray-800 py-10 md:py-14 px-10 md:px-20 min-w-72 max-w-72 md:max-w-96 md:min-w-96 h-screen transition-all ease-in-out duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-96 md:translate-x-440px'}`}>
         <div
           onClick={handleClose}
           className='absolute top-10 md:top-14 right-10 md:right-14 text-white text-base cursor-pointer hover:text-red-400 transition'

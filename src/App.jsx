@@ -4,6 +4,7 @@ import { Headerside } from "./component/Headerside";
 import { Sidebar } from "./component/Sidebar";
 import { Homepage } from "./pages/home/Homepage";
 import { Webagency } from "./pages/Projects/Webagency";
+import { Aboutus } from "./pages/About/Aboutus";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           }
         />
         <Route path="/Webagency" element={<Webagency />} />
+         <Route path="/Aboutus" element={<Aboutus />} />
       </Routes>
     </>
   );

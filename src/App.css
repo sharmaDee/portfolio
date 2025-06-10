@@ -11,11 +11,13 @@
   --spacing-unset: unset;
   --spacing-23px: 23px;
   --spacing-30px: 30px;
-  --spacing-1220px: 1220px;
+  --spacing-1750px: 1750px;
   --spacing-1440: 1440px;
+  --spacing-1220px: 1220px;
   --spacing-280px: 280px;
   --spacing-350px: 300px;
   --spacing-350px: 350px;
+  --spacing-368px: 368px;
   --spacing-400px: 400px;
   --spacing-500px: 500px;
   --spacing-560px: 560px;
@@ -36,6 +38,7 @@
   --radius-54px: 54px;
   --font-Teko: "Teko", sans-serif;
   --font-Kanit: "Kanit", sans-serif;
+  --font-Karla: "Karla", sans-serif;
   
 }
 @layer utilities{

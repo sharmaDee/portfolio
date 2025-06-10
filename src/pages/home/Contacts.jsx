@@ -22,38 +22,38 @@ export const Contacts = () => {
             
             <div className='mt-5 md:mt-10'>
             <form className='space-y-5'>
-            <div class="grid md:grid-cols-2 md:gap-6">
-                    <div class="relative z-0 w-full mb-5 group">
-                        <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
-                        <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">First name <span class="text-red-500">*</span></label>
+            <div className="grid md:grid-cols-2 md:gap-6">
+                    <div className="relative z-0 w-full mb-5 group">
+                        <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
+                        <label  className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">First name <span className="text-red-500">*</span></label>
                     </div>
-                    <div class="relative z-0 w-full mb-5 group">
-                        <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
-                        <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">Last name  <span class="text-red-500">*</span></label>
-                    </div>
-                </div>
-            <div class="grid md:grid-cols-2 md:gap-6">
-                    <div class="relative z-0 w-full mb-5 group">
-                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
-                        <label for="floating_phone" class="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">phone (optional)</label>
-                    </div>
-                    <div class="relative z-0 w-full mb-5 group">
-                        <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
-                        <label for="floating_company" class="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">Subject <span class="text-red-500">*</span></label>
+                    <div className="relative z-0 w-full mb-5 group">
+                        <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
+                        <label  className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">Last name  <span className="text-red-500">*</span></label>
                     </div>
                 </div>
-                <div class="relative z-0 w-full mb-5 group">
-                    <input type="text" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
-                    <label for="floating_email" class="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">your budget (optional)</label>
+            <div className="grid md:grid-cols-2 md:gap-6">
+                    <div className="relative z-0 w-full mb-5 group">
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
+                        <label  className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">phone (optional)</label>
+                    </div>
+                    <div className="relative z-0 w-full mb-5 group">
+                        <input type="text" name="floating_company" id="floating_company" className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
+                        <label  className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">Subject <span className="text-red-500">*</span></label>
+                    </div>
+                </div>
+                <div className="relative z-0 w-full mb-5 group">
+                    <input type="text" name="floating_email" id="floating_email" className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=" " required />
+                    <label  className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">your budget (optional)</label>
                 </div>
               
-                <div class="relative z-0 w-full mb-5 group">
-                <textarea id="message" rows="2" class="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=""></textarea>
-                    <label for="floating_repeat_password" class="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">Write Your message</label>
+                <div className="relative z-0 w-full mb-5 group">
+                <textarea id="message" rows="2" className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Primary bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-Primary peer" placeholder=""></textarea>
+                    <label  className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-Primary  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">Write Your message</label>
                 </div>
                 
                 <div className='mt-12'>
-                    <button type="submit" class="bg-linear-to-bl cursor-pointer from-Primary to-green-700 rounded-full px-12 py-3 transition-all ease-in-out duration-500 hover:shadow-card text-white text-base font-medium ">Submit</button>
+                    <button type="submit" className="bg-linear-to-bl cursor-pointer from-Primary to-green-700 rounded-full px-12 py-3 transition-all ease-in-out duration-500 hover:shadow-card text-white text-base font-medium ">Submit</button>
                 </div>
                 
             </form>

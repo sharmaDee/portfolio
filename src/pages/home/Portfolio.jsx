@@ -94,7 +94,7 @@ export const Portfolio = () => {
           
              
               <div className='mt-2 md:mt-6 2xl:mt-10'>
-                    <button type="submit" class="bg-linear-to-bl cursor-pointer from-Primary to-green-700 rounded-full px-8 py-2.5 transition-all ease-in-out duration-500 hover:shadow-card text-white text-base font-medium ">See More</button>
+                    <button type="submit" className="bg-linear-to-bl cursor-pointer from-Primary to-green-700 rounded-full px-8 py-2.5 transition-all ease-in-out duration-500 hover:shadow-card text-white text-base font-medium ">See More</button>
                 </div>
               </div>
               
