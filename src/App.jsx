@@ -4,7 +4,8 @@ import { Headerside } from "./component/Headerside";
 import { Sidebar } from "./component/Sidebar";
 import { Homepage } from "./pages/home/Homepage";
 import { Webagency } from "./pages/Projects/Webagency";
-import { Aboutus } from "./pages/About/Aboutus";
+import { Aboutus } from './pages/about/Aboutus';
+import { Blogcontent } from './pages/blog/Blogcontent';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         />
         <Route path="/Webagency" element={<Webagency />} />
          <Route path="/Aboutus" element={<Aboutus />} />
+         <Route path="/Blogcontent" element={<Blogcontent />} />
       </Routes>
     </>
   );
