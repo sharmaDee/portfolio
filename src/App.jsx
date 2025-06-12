@@ -6,6 +6,7 @@ import { Homepage } from "./pages/home/Homepage";
 import { Webagency } from "./pages/Projects/Webagency";
 import { Aboutus } from './pages/about/Aboutus';
 import { Blogcontent } from './pages/blog/Blogcontent';
+import { Blogdetail } from './pages/blog/Blogdetail';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Webagency" element={<Webagency />} />
          <Route path="/Aboutus" element={<Aboutus />} />
          <Route path="/Blogcontent" element={<Blogcontent />} />
+         <Route path="/Blogdetail" element={<Blogdetail />} />
       </Routes>
     </>
   );
