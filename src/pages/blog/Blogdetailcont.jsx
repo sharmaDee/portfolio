@@ -1,7 +1,10 @@
 import React from 'react'
 import entrepreneurial from '../../assets/images/marketresearch.jpg';
 import businessgrowth from '../../assets/images/businessgrowth.jpg';
+import coding from '../../assets/images/coding.jpg';
 import quote from '../../assets/images/quote-10.webp';
+import { Webfooter } from '../Projects/component/Webfooter';
+import { Bloglist } from './Bloglist';
 export const Blogdetailcont = () => {
   return (
     <>
@@ -64,11 +67,117 @@ export const Blogdetailcont = () => {
                             <li className='space-x-2 text-base flex gap-3 items-center text-Webblack font-Kanit'><span className='block text-2xl font-normal text-Webblack'>+</span>Shopify Development</li>
                         </ul>
                     </div>
+                    <div className='space-y-5'>
+                        <h4 className='font-Noto text-4xl text-Webblack font-semibold'>WorkFrame</h4>
+                        <p className='text-base font-Kanit text-Davy'>Just like other pseudo-elements and pseudo-class selectors, :not() can be chained with other pseudon classes and pseudo-elements. For example, the following will add a “New!” word to list items that do not have a .old class name, using the ::after pseudo-element:</p>
+                        <div className='h-60 overflow-hidden'>
+                        <img src={coding} alt='coding' className='w-full h-full  object-fill'/>
+                    </div>
+                    
+                    </div>
+                    <div className='space-y-5'>
+                        <h4 className='font-Noto text-4xl text-Webblack'>Write a comment</h4>
+                        <div className="mt-5 md:mt-10">
+              <form className="space-y-5">
+                <div className="grid md:grid-cols-2 md:gap-6 font-Kanit">
+                  <div className="relative z-0 w-full mb-5 group">
+                    <input
+                      type="text"
+                      name="floating_first_name"
+                      id="floating_first_name"
+                      className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Webblack bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-amber-500 peer"
+                      placeholder=" "
+                      required
+                    />
+                    <label className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-500  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">
+                      First name <span className="text-red-500">*</span>
+                    </label>
+                  </div>
+                  <div className="relative z-0 w-full mb-5 group">
+                    <input
+                      type="text"
+                      name="floating_last_name"
+                      id="floating_last_name"
+                      className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Webblack bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-amber-500 peer"
+                      placeholder=" "
+                      required
+                    />
+                    <label className="peer-focus:font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-500  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">
+                      Last name <span className="text-red-500">*</span>
+                    </label>
+                  </div>
                 </div>
+                <div className="grid md:grid-cols-2 md:gap-6">
+                  <div className="relative z-0 w-full mb-5 group">
+                    <input
+                      type="tel"
+                      pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                      name="floating_phone"
+                      id="floating_phone"
+                      className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Webblack bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-amber-500 peer"
+                      placeholder=" "
+                      required
+                    />
+                    <label className="peer-focus:font-medium font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-500  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">
+                      phone (optional)
+                    </label>
+                  </div>
+                  <div className="relative z-0 w-full mb-5 group">
+                    <input
+                      type="text"
+                      name="floating_company"
+                      id="floating_company"
+                      className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Webblack bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-amber-500 peer"
+                      placeholder=" "
+                      required
+                    />
+                    <label className="peer-focus:font-medium font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-500  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">
+                      Subject <span className="text-red-500">*</span>
+                    </label>
+                  </div>
+                </div>
+                <div className="relative z-0 w-full mb-5 group">
+                  <input
+                    type="text"
+                    name="floating_email"
+                    id="floating_email"
+                    className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Webblack bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-amber-500 peer"
+                    placeholder=" "
+                    required
+                  />
+                  <label className="peer-focus:font-medium font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-500  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">
+                    your budget (optional)
+                  </label>
+                </div>
+
+                <div className="relative z-0 w-full mb-5 group">
+                  <textarea
+                    id="message"
+                    rows="2"
+                    className="block py-2.5 px-0 w-full text-sm transition-all ease-in-out duration-300  text-Webblack bg-transparent border-0 border-b-1 border-gray-500 appearance-none  focus:outline-none focus:ring-0 focus:border-amber-500 peer"
+                    placeholder=""
+                  ></textarea>
+                  <label className="peer-focus:font-medium font-medium absolute text-sm transition-all ease-in-out duration-300 text-gray-500  transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-amber-500  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6 uppercase">
+                    Write Your message
+                  </label>
+                </div>
+
+                <div className="mt-12">
+                 <button type='button' className=' text-sm hidden xl:block uppercase text-white font-Kanit py-3.5 px-10 rounded-tr-2xl rounded-bl-2xl bg-Webblack'>Sumbit</button>
+                </div>
+              </form>
+            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='space-y-10'>
+                <h4 className='text-4xl text-Webblack font-Kanit font-normal '>Related articles</h4>
+                <Bloglist blockStyle="md:!grid-cols-3" cardTitle="md:!text-xl" />
             </div>
         </div>
     </div>
-    
+    <Webfooter/>
     </>
   )
 }

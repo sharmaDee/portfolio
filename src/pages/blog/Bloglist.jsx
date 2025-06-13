@@ -7,10 +7,10 @@ import Buildingquality from '../../assets/images/buildingquality.jpg';
 import businessresilience from '../../assets/images/businessresilience.jpg';
 import entrepreneurial from '../../assets/images/entrepreneurial.jpg';
 import businessgrowth from '../../assets/images/businessgrowth.jpg';
-export const Bloglist = () => {
+export const Bloglist = (props) => {
   return (
     <>
-    <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+    <div className={`grid grid-cols-1 md:grid-cols-2 gap-10 ${props.blockStyle}`}>
                         <div className='relative  border-b-2 space-y-5 border-black/15 pb-6 group/blog hover:border-black transition-all ease-in-out duration-500 cursor-pointer'>
                             <div className='h-80 md:h-500px overflow-hidden'>
                                 <img src={teamwork} className='w-full h-full object-cover' alt='teamwork'/>
@@ -18,7 +18,7 @@ export const Bloglist = () => {
                             <div className='grid grid-cols-3 justify-between'>
                                 <div className="flex items-start col-span-2 gap-12">
                                     <span className='font-Kanit text-xl font-normal text-Davy'>01</span>
-                                    <h3 className='font-Noto text-Webblack font-medium text-xl md:text-2xl'>Business <br/> consultation</h3>
+                                    <h3 className={`font-Noto text-Webblack font-medium text-xl md:text-2xl ${props.cardTitle}`}>Business <br/> consultation</h3>
                                 </div>
                                 <div className='relative text-right group-hover/blog:opacity-100 transition-all duration-300 ease-in-out opacity-0'><FontAwesomeIcon className='-rotate-45' icon={faArrowRight} /></div>
                             </div>
