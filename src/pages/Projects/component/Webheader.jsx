@@ -44,7 +44,7 @@ export const Webheader = () => {
                 </li>
                
              
-                 <li
+                 {/* <li
                     className="relative py-2.5 flex items-center gap-2.5 group/menu transition-all ease-in-out duration-500 cursor-pointer"
                     onMouseEnter={() => toggleSubMenu("pages")}
             onMouseLeave={() => toggleSubMenu(null)}
@@ -75,9 +75,9 @@ export const Webheader = () => {
                         
                     </div>
                     )}
-                </li>
+                </li> */}
                 <li className='py-2.5 group/menu transition-all ease-in-out duration-500 relative cursor-pointer' onMouseEnter={() => toggleSubMenu("blog")} onMouseLeave={() => toggleSubMenu(null)}>
-                    <button type='button' className=' text-sm uppercase text-black'>Blog</button>
+                    <button type='button' className=' text-sm uppercase text-black'>Blog <FontAwesomeIcon icon={faChevronDown} className='text-xs' /></button>
                      {openMenu === "blog" && (
                         <div className="absolute top-full left-0 p-5 group-hover/menu:opacity-100  opacity-0 transition-all duration-300 ease-in-out z-10  bg-linear-to-r from-Webblack to-neutral-600 shadow-md min-w-56 ">
                         <div className='grid grid-cols-2 gap-2'>
@@ -92,9 +92,9 @@ export const Webheader = () => {
                     </div>
                      )}
                 </li>
-                <li className='py-2.5 cursor-pointer'>
+                {/* <li className='py-2.5 cursor-pointer'>
                     <Link to="/" className=' text-sm uppercase text-black'>Contact</Link>
-                </li>
+                </li> */}
                 <li className='py-2.5 xl:hidden'>
                     <button type='button' className=' text-sm uppercase text-white py-2.5 px-6 rounded-tr-2xl rounded-bl-2xl bg-Webblack'>Get Started</button>
                 </li>

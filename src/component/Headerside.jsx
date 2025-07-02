@@ -42,7 +42,7 @@ export const Headerside = () => {
         <nav className='mt-6 '>
                 <ul className='py-6 gap-y-8 flex flex-col  '>
                     <li>
-                        <a className='intr text-white flex items-center capitalize text-sm gap-4'  href='#introduce' to="section1" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="introduce" place="top">
+                        <a className='intr text-white flex items-center capitalize text-sm gap-4'  href='#introduce' to="section1" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="introduce" place="top">
                            <Homeicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>introduce</span>
                         </a>
                        
@@ -51,7 +51,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#about' className='about text-white flex items-center capitalize text-sm gap-4' to="section2" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="about">
+                        <a href='#about' className='about text-white flex items-center capitalize text-sm gap-4' to="section2" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="about">
                             <Abouticon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>about</span>
                         </a>
                         <Tooltip  anchorSelect=".about" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -59,7 +59,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#resume' className='resume text-white flex items-center capitalize text-sm gap-4' to="section3" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="resume">
+                        <a href='#resume' className='resume text-white flex items-center capitalize text-sm gap-4' to="section3" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="resume">
                             <Briefcaseicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>Resume</span>
                         </a>
                         <Tooltip  anchorSelect=".resume" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -67,7 +67,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#services' className='service text-white flex items-center capitalize text-sm gap-4' to="section4" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Services">
+                        <a href='#services' className='service text-white flex items-center capitalize text-sm gap-4' to="section4" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Services">
                             <Serviceicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>Services</span>
                         </a>
                         <Tooltip  anchorSelect=".service" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -75,7 +75,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#myskill' className='skills text-white flex items-center capitalize text-sm gap-4' to="section5" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="My Skills">
+                        <a href='#myskill' className='skills text-white flex items-center capitalize text-sm gap-4' to="section5" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="My Skills">
                             <Portfolio className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>My Skills</span>
                         </a>
                         <Tooltip  anchorSelect=".skills" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -83,7 +83,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#portfolio' className='portfolio text-white flex items-center capitalize text-sm gap-4' to="section6" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Portfolio">
+                        <a href='#portfolio' className='portfolio text-white flex items-center capitalize text-sm gap-4' to="section6" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Portfolio">
                             <Skills className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>Portfolio</span>
                         </a>
                         <Tooltip  anchorSelect=".portfolio" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -91,7 +91,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#prices' className='prices text-white flex items-center capitalize text-sm gap-4' to="section7" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Prices">
+                        <a href='#prices' className='prices text-white flex items-center capitalize text-sm gap-4' to="section7" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Prices">
                             <Price className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>Prices</span>
                         </a>
                         <Tooltip  anchorSelect=".prices" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -99,13 +99,13 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     {/* <li>
-                        <a href='#' to="section7" smooth={true} duration={500}>
+                        <a href='#' to="section7" smooth="true" duration={500}>
                             <Testimonialicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                     </li> */}
                     
                     <li>
-                        <a href='#contact' className='contact text-white flex items-center capitalize text-sm gap-4' to="section8" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="contact">
+                        <a href='#contact' className='contact text-white flex items-center capitalize text-sm gap-4' to="section8" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="contact">
                             <Messageicon className="stroke-white/60 w-4 h-4  stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/><span>Contact</span>
                         </a>
                         <Tooltip  anchorSelect=".contact" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -119,7 +119,7 @@ export const Headerside = () => {
             <nav className='hidden xl:block'>
                 <ul className='border border-white/40 px-3 py-6 rounded-full gap-y-8 flex flex-col  items-center text-center'>
                     <li>
-                        <a className='intr'  href='#introduce' to="section1" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="introduce" place="top">
+                        <a className='intr'  href='#introduce' to="section1" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="introduce" place="top">
                            <Homeicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                        
@@ -128,7 +128,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#about' className='about' to="section2" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="about">
+                        <a href='#about' className='about' to="section2" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="about">
                             <Abouticon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                         <Tooltip  anchorSelect=".about" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -136,7 +136,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#resume' className='resume' to="section3" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="resume">
+                        <a href='#resume' className='resume' to="section3" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="resume">
                             <Briefcaseicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                         <Tooltip  anchorSelect=".resume" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -144,7 +144,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#services' className='service' to="section4" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Services">
+                        <a href='#services' className='service' to="section4" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Services">
                             <Serviceicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                         <Tooltip  anchorSelect=".service" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -152,7 +152,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#myskill' className='skills' to="section5" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="My Skills">
+                        <a href='#myskill' className='skills' to="section5" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="My Skills">
                             <Portfolio className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                         <Tooltip  anchorSelect=".skills" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -160,7 +160,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#portfolio' className='portfolio' to="section6" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Portfolio">
+                        <a href='#portfolio' className='portfolio' to="section6" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Portfolio">
                             <Skills className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                         <Tooltip  anchorSelect=".portfolio" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -168,7 +168,7 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     <li>
-                        <a href='#prices' className='prices' to="section7" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Prices">
+                        <a href='#prices' className='prices' to="section7" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="Prices">
                             <Price className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                         <Tooltip  anchorSelect=".prices" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
@@ -176,13 +176,13 @@ export const Headerside = () => {
                         </Tooltip>
                     </li>
                     {/* <li>
-                        <a href='#' to="section7" smooth={true} duration={500}>
+                        <a href='#' to="section7" smooth="true" duration={500}>
                             <Testimonialicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                     </li> */}
                     
                     <li>
-                        <a href='#contact' className='contact' to="section8" smooth={true} duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="contact">
+                        <a href='#contact' className='contact' to="section8" smooth="true" duration={500} data-tooltip-id="my-tooltip" data-tooltip-content="contact">
                             <Messageicon className="stroke-white/60 w-4 h-4  stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300"/>
                         </a>
                         <Tooltip  anchorSelect=".contact" place="left" style={{ textTransform: 'capitalize', background: '#00D970', fontWeight: '600', fontSize: '14px' }}>
