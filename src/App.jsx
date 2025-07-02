@@ -11,6 +11,7 @@ import { Blogdetail } from './pages/blog/Blogdetail';
 
 
 function App() {
+  
   return (
     <>
       <Routes>
