@@ -14,6 +14,15 @@ import { Autoplay, Mousewheel, } from 'swiper/modules';
 
 import 'swiper/css';
 export const Webclientslider = () => {
+  const clientImages = [
+  { src: Lightone, alt: 'Light One' },
+  { src: Lighttwo, alt: 'Light Two' },
+  { src: Lightthree, alt: 'Light Three' },
+  { src: Lightfour, alt: 'Light Four' },
+  { src: Lightfive, alt: 'Light Five' },
+  { src: Lightsix, alt: 'Light Six' },
+  { src: Lightseven, alt: 'Light Seven' }
+];
   return (
     <>
     <div className='relative bg-gray-950 gap-6 overflow-hidden flex items-center p-5 xl:p-0'>
@@ -41,27 +50,12 @@ export const Webclientslider = () => {
         }} loop={true} autoplay={{delay: 0, disableOnInteraction: false,}} speed={2000} navigation={false} spaceBetween={30} mousewheel={true} modules={[Autoplay, Mousewheel]}
         className="mySwiper"
       >
-        <SwiperSlide>
-          <img src={Lightone} alt='Lightone'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Lighttwo} alt='Lighttwo'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Lightthree} alt='Lightthree'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Lightfour} alt='Lightfour'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Lightfive} alt='Lightfive'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Lightsix} alt='Lightsix'/>
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Lightseven} alt='Lightseven'/>
-        </SwiperSlide>
+         {clientImages.map((image, index) => (
+            <SwiperSlide key={index}>
+              <img src={image.src} alt={image.alt} />
+            </SwiperSlide>
+          ))}
+       
        
       </Swiper>
       </div>

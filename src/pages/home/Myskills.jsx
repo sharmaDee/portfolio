@@ -26,7 +26,7 @@ export const Myskills = () => {
                 </p>
               </div>
               <h2 className="text-3xl md:text-4xl 2xl:text-5xl md:leading-14 font-poppins font-thin poppins-thin text-white">
-              My <span className=" text-Primary">Advantages</span>
+              My <span className=" text-Primary font-medium">Advantages</span>
               </h2>
             </div>
             <div className='mt-8 md:mt-12 grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 md:gap-8'>

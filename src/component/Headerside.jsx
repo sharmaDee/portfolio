@@ -21,10 +21,10 @@ export const Headerside = () => {
     {name:"resume", icon: <Briefcaseicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
     {name:"services", icon: <Serviceicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
     {name:"myskill", icon: <Portfolio className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
-   {name:"portfolio", icon: <Skills className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
-   {name:"prices", icon: <Price className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
+    {name:"portfolio", icon: <Skills className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
+    {name:"prices", icon: <Price className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
     {name:"contact", icon: <Messageicon className="stroke-white/60 w-4 h-4 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" /> },
-   
+       
   ];
 
   return (

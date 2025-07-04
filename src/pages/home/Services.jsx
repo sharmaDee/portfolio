@@ -17,7 +17,7 @@ export const Services = () => {
                 </p>
               </div>
               <h2 className="text-3xl md:text-4xl 2xl:text-5xl leading-14 font-poppins font-thin poppins-thin text-white">
-              My <span className=" text-Primary">Specializations</span>
+              My <span className=" text-Primary font-medium">Specializations</span>
               </h2>
             </div>
             <div className='mt-5 md:mt-12 flex flex-col gap-6'>
