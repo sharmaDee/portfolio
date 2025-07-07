@@ -11,7 +11,6 @@ export const Portfolio = ({
   sectionName = "section5",
   title = "Featured Projects",
   badgeLabel = "portfolio",
-  badgeIcon: BadgeIcon,
   swiperSettings = {},
   wrapperClass = "",
   cardClass = "",
@@ -53,9 +52,7 @@ export const Portfolio = ({
         <div className="xl:ms-72">
           <div className="space-y-6 2xl:space-y-10 max-w-2xl">
             <div className="rounded-4xl py-2 px-5 border border-white/20 inline-flex items-center gap-2">
-              {BadgeIcon && (
-                <BadgeIcon className="stroke-white/80 w-3 h-3 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" />
-              )}
+             
               <p className="uppercase text-xs text-gray-500 font-normal">
                 {badgeLabel}
               </p>
@@ -114,7 +111,7 @@ export const Portfolio = ({
               ))}
             </Swiper>
 
-            {showSeeMore && (
+            {showSeeMore && projects.length > 3 && (
               <div className="mt-2 md:mt-6 2xl:mt-10">
                 <button
                   onClick={onSeeMoreClick}

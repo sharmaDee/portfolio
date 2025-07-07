@@ -1,5 +1,4 @@
 import React from "react";
-import Pricesalt from "../../icons/Pricesalt";
 
 export const Prices = ({
   sectionId = "prices",
@@ -26,7 +25,7 @@ export const Prices = ({
         <div className="xl:ms-72">
           <div className="space-y-6 2xl:space-y-10 max-w-2xl">
             <div className="rounded-4xl py-2 px-5 border border-white/20 inline-flex items-center gap-2">
-              <Pricesalt className="stroke-white/80 w-3 h-3 stroke-2 hover:stroke-Primary transition-all ease-in-out duration-300" />
+              
               <p className="uppercase text-xs text-gray-500 font-normal">{subtitle}</p>
             </div>
             <h2 className="text-3xl md:text-4xl 2xl:text-5xl leading-14 font-poppins font-thin text-white">
