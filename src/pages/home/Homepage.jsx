@@ -107,12 +107,13 @@ I'm continuously learning and evolving, blending design and code to craft digita
             link: "/Webagency",
             internal: true,
           },
+          
         ]}
         onSeeMoreClick={() => alert("See more clicked")}
       />
       {/* portfolio-end */}
       {/* prices-start */}
-      <Prices
+      {/* <Prices
         title="Choose Your Plan"
         subtitle="Pricing"
         wrapperClass=""
@@ -145,11 +146,11 @@ I'm continuously learning and evolving, blending design and code to craft digita
             ],
           },
         ]}
-      />
+      /> */}
 
       {/* <Prices/> */}
       {/* <Contacts/> */}
-      <Contacts
+      {/* <Contacts
         title="Let's Connect Now!"
         subtitle="inquiry"
         buttonText="Send Message"
@@ -167,7 +168,7 @@ I'm continuously learning and evolving, blending design and code to craft digita
           { name: "email", label: "Email", type: "email", required: true },
           { name: "message", label: "Message", type: "textarea", rows: 4 },
         ]}
-      />
+      /> */}
     </>
   );
 };
